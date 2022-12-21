@@ -54,3 +54,5 @@ sudo apt-get update
 sudo apt-get install grafana
 systemctl start grafana-server
 systemctl enable  grafana-server
+cd /etc/logstash/conf.d/
+wget https://raw.githubusercontent.com/ro6it/Loki-alb-stack/main/logstash.conf
