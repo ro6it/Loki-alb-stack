@@ -26,9 +26,9 @@ echo " #################################################### Installing Loki ####
 echo ''
 echo ''
 echo ''
-wget https://github.com/grafana/loki/releases/download/v2.7.0/loki_2.7.0_amd64.deb
-chmod +x loki_2.7.0_amd64.deb
-dpkg -i loki_2.7.0_amd64.deb
+wget https://github.com/grafana/loki/releases/download/v2.8.2/loki_2.8.2_amd64.deb
+chmod +x loki_2.8.2_amd64.deb
+dpkg -i loki_2.8.2_amd64.deb
 echo ''
 echo ''
 echo ''
@@ -36,9 +36,9 @@ echo " #################################################### Installing Promtail 
 echo ''
 echo ''
 echo ''
-wget https://github.com/grafana/loki/releases/download/v2.7.0/promtail_2.7.0_amd64.deb
-chmod +x promtail_2.7.0_amd64.deb 
-dpkg -i promtail_2.7.0_amd64.deb
+wget https://github.com/grafana/loki/releases/download/v2.8.2/promtail_2.8.2_amd64.deb
+chmod +x promtail_2.8.2_amd64.deb 
+dpkg -i promtail_2.8.2_amd64.deb
 echo ''
 echo ''
 echo ''
